@@ -1,0 +1,15 @@
+.polaroid {
+    max-height:90%; 
+    max-width:90%;
+    margin: auto;
+    display: block;
+    transform: rotate(-10deg);
+    border: solid white;
+    border-width: 10px 10px 20px 10px;
+}
+
+.polaroid:hover {
+    box-shadow: 0px 0px 20px white;
+    cursor: pointer;
+    pointer-events: auto;
+}

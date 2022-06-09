@@ -1,0 +1,44 @@
+.sticky:hover {
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    z-index: 5;
+}
+
+#one {
+    transform: rotate(2deg);
+    top: 5px;
+    background: #ffc;
+}
+
+#two {
+    transform: rotate(-3deg);
+    top: 10px;
+    background: #cfc;
+}
+
+#three {
+    transform: rotate(4deg);
+    top: -5px;
+    background: #fcc;
+}
+
+#four {
+    transform: rotate(3deg);
+    top: -5px;
+    background: #fcc;
+}
+
+#five {
+    transform: rotate(5deg);
+    top: -10px;
+    background: #ffc;
+}
+
+#six {
+    transform: rotate(-4deg);
+    top: 5px;
+    background: #ccf;
+}
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover {
+    transform: scale(1.2)
+}
