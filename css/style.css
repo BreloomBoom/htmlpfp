@@ -10,9 +10,28 @@ html {
 body {
     background-image: url(../images/corkboard.jpeg);
     background-size: cover;
-    font-family: 'Just Another Hand', cursive;
     height: 100%;
     margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Reenie Beanie';
+    font-size: 2rem;
+    margin: 5% 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
 }
 
 .container {
@@ -37,4 +56,9 @@ body {
     position: relative;
     transition: transform .15s linear;
     padding: 2em;
+}
+
+.video {
+    max-width: 100%;
+    max-height: 100%;
 }
